@@ -12,6 +12,10 @@
     <artifactId>infra-persistence</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>com.fsk.hexaarchi</groupId>
+            <artifactId>domain</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
