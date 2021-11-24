@@ -15,6 +15,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hexaarchibase</name>
 	<description>Demo project for Hexagonal Architecture Spring Boot</description>
+
 	<properties>
 		<java.version>11</java.version>
 		<maven.compiler.source>11</maven.compiler.source>
@@ -28,6 +29,12 @@
 	</modules>
 
 	<dependencies>
+<!--		Be aware that any dependency you will add to the parent -->
+<!--		pom will be available for all sub-modules including domain -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
